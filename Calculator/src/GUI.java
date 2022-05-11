@@ -144,6 +144,7 @@ public class GUI {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Calculator.process(input);
+                inputfield.setText(Calculator.result); // CHYBA !!!
             }
         });
 
